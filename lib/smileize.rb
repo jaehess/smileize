@@ -1,5 +1,5 @@
 module Smileize
-  PATH = "/icons"
+  PATH = "/images/smileys"
   SMILES = [/\;\-?p/i, /\$\-?\)/, /8\-?\)/, /\>\:\-?\(/, /\:\-?\*/, /\:\-?o/i, /\:\-?c/i, /\;\-?\)/, 
     /\:\-?s/i, /\:\-?\|/, /\:\-?p/i, /\:\-?D/i, /\:\-?\(/, /\:\-?\)/]
   def to_icon(key)
