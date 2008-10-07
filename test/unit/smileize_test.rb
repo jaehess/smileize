@@ -74,6 +74,11 @@ class SmileizeTest < Test::Unit::TestCase
     assert_smile :big_smile, ":-d".smileize
   end
   
+  def test_oh
+    assert_smile :oh, ":?".smileize
+    assert_smile :oh, ":-?".smileize
+  end
+  
   def test_frown
     assert_smile :frown, ":(".smileize
     assert_smile :frown, ":-(".smileize

@@ -32,10 +32,12 @@ class Test::Unit::TestCase
       icon = "icon11.png"
     when "big_smile"
       icon = "icon12.png"
-    when "frown"
+    when "oh"
       icon = "icon13.png"
-    when "smile"
+    when "frown"
       icon = "icon14.png"
+    when "smile"
+      icon = "icon15.png"
     else
       icon = "foo.png"
     end
